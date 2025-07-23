@@ -6,8 +6,6 @@ class SimilarityFixture : public Test {
 public:
 	Similarity similarity;
 
-	vector<std::string> expected;
-
 };
 
 TEST_F(SimilarityFixture, tc1) {
